@@ -7,16 +7,16 @@ import java.io.Serializable;
  * @date: 2019/10/22
  * @time: 17:24
  */
-public class User implements Serializable {
+public class Teacher implements Serializable {
 
     private int id;
     private String name;
 
-    public User(){
+    public Teacher(){
 
     }
 
-    public User(int id, String name) {
+    public Teacher(int id, String name) {
         this.id = id;
         this.name = name;
     }
@@ -39,7 +39,7 @@ public class User implements Serializable {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "Teacher{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';

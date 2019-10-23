@@ -1,4 +1,4 @@
-package com.lvqv.provider.controller;
+package com.lvqz.provider.serviceImpl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.lvqz.dubbo.domain.User;

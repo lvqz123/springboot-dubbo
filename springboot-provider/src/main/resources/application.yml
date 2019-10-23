@@ -4,3 +4,15 @@ server:
 spring:
   application:
     name: springboot-provider
+dubbo:
+  application:
+    owner: lvqzTest
+    name: springboot-provider
+  registry:
+    address: zookeeper://129.28.186.107:2181
+    timeout: 9000
+  protocol:
+    name: dubbo
+    port: 20880
+  scan:
+    base-packages: com.lvqv.provider
