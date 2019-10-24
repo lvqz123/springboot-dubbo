@@ -9,6 +9,6 @@ import com.lvqz.dubbo.domain.User;
  */
 public interface UserService {
 
-    public User getUserById();
+    User getUserById();
 
 }

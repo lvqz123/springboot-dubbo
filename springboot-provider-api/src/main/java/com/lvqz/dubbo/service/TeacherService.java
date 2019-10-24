@@ -9,6 +9,6 @@ import com.lvqz.dubbo.domain.Teacher;
  */
 public interface TeacherService {
 
-   public Teacher getTeacher();
+   Teacher getTeacher();
 
 }
